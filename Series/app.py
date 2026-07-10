@@ -37,11 +37,11 @@ st.write(geo_infinity_sum(a1_geometric, r_geometric), "infinite sum")
 
 st.title("Harmonic Series")
 st.write("1 1/2 1/3 1/4 . . . 1/n")
-n_harmonic = st.slider("n_harmonic", -100.0, 100.0, 10.0, 1.0)
+n_harmonic = st.slider("n_harmonic", 1, 100, 10, 1)
 k_harmonic = st.slider("k_harmonic", -100.0, 100.0, 1.0, 1.0)
 a1_harmonic = st.slider("a1_harmonic", -100.0, 100.0, 1.0, 1.0)
 d_harmonic = st.slider("d_harmonic", -100.0, 100.0, 1.0, 1.0)
-lbda_harmonic = st.slider("lambda_harmonic", -100.0, 100.0, 0.5772156649, 0.0000000001)   
+lbda_harmonic = st.slider("lambda_harmonic", -100.0, 100.0, 0.5772156649, 0.0000000001)
 
 st.write(harmonic_num(n_harmonic, k_harmonic), "harmonic number")
 st.write(harominic_nth_term(a1_harmonic, n_harmonic, d_harmonic), "harmonic nth term")

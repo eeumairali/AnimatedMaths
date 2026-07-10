@@ -20,4 +20,6 @@ def harominic_nth_term(a1,n,d):
     return 1/output
 
 def asym_aprox(n,lbda):
+    if n <= 0:
+        return "Error, n must be greater than 0"
     return ln(n) + lbda
