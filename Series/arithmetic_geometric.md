@@ -8,3 +8,10 @@
 - $S_n = a_1 \frac{1-r^n}{1-r}$ geo_sum_n_terms
 - $S_\infty = \frac{a_1}{1-r}, \quad |r|<1$ geo_infinity_sum
 
+
+
+## 3. Harmonic
+- Harmonic number: $H_n = \sum_{k=1}^{n} \frac{1}{k}$
+- nth term: $a_n = \frac{1}{a_1 + (n-1)d}$
+- Asymptotic approximation: $H_n \approx \ln n + \gamma$
+
